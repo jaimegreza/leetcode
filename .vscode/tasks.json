@@ -1,0 +1,696 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "testbed1",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed1.cpp"
+            ]
+        },
+        {
+            "taskName": "testbed2",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed2.cpp"
+            ]
+        },
+        {
+            "taskName": "testbed3",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed3.cpp"
+            ]
+        },
+        {
+            "taskName": "testbed4",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed4.cpp"
+            ]
+        },
+        {
+            "taskName": "testbed5",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed5.cpp"
+            ]
+        },
+        {
+            "taskName": "testbed6",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed6.cpp"
+            ]
+        },
+        {
+            "taskName": "testbed7",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed7.cpp"
+            ]
+        },
+        {
+            "taskName": "testbed8",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed8.cpp"
+            ]
+        },
+        {
+            "taskName": "testbed9",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed9.cpp"
+            ]
+        },
+        {
+            "taskName": "testbed10",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed10.cpp"
+            ]
+        },
+        {
+            "taskName": "testbed11",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed11.cpp"
+            ]
+        },
+        {
+            "taskName": "testbed12",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed12.cpp"
+            ]
+        },
+        {
+            "taskName": "testbed13",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed13.cpp"
+            ]
+        },
+        {
+            "taskName": "testbed14",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed14.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed15",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed15.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed16",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed16.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed17",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed17.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed18",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed18.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed19",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed19.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed20",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed20.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed21",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed21.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed22",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed22.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed23",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed23.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed24",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed24.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed25",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed25.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed26",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed26.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed27",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed27.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed28",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed28.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed29",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed29.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed30",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed30.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed31",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed31.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed32",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed32.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed33",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed33.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed34",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed34.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed35",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed35.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed36",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed36.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed37",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed37.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed38",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed38.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed39",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed39.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed40",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed40.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed41",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed41.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed42",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed42.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed43",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed43.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed44",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed44.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "testbed45",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/testbed45.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "lc283",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/leetcode283.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "lc292",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/leetcode292.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "lc349",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/leetcode349.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "lc371",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/leetcode371.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "lc404",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/leetcode404.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "lc414",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/leetcode414.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "lcSort",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/leetcodeSort.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "lc447",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/leetcode447.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "lc500",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/leetcode500.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "lc566",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/leetcode566.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "taskName": "lc5",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-g",
+                "-std=c++14",
+                "c++/leetcode5.cpp"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+    ]
+}
