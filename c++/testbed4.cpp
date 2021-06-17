@@ -117,6 +117,67 @@ public:
 			}
 		}
 	}
+
+
+	static void preorderItr(Node *root) {
+	
+		std::stack<Node*, std::deque<Node*> > st;
+
+		Node *n = root;
+	
+		while (1)
+		{
+			while (n != nullptr)
+			{
+				cout << setw(4) << n->getValue();
+				st.push(n);
+				n = n->getLeft();
+			}
+
+			if (st.empty())
+				return;
+
+			n = st.top();
+			st.pop();
+			n = n->getRight();
+			
+		}
+		
+	}
+
+
+	static void postorderItr(Node *root) {
+	
+		std::stack<Node*, std::deque<Node*> > st;
+
+		Node *n = root;
+	
+		while (1)
+		{
+			while (n != nullptr)
+			{
+				st.push(n);
+				n = n->getLeft();
+			}
+
+			if (st.empty())
+				return;
+
+			n = st.top();			
+
+			n = n->getRight();
+			
+			if (n == nullptr && !st.empty())
+			{
+				cout << setw(4) << n->getValue();
+				st.pop();
+				n = n->getRight();
+
+			}
+			
+		}
+		
+	}
 };
 
 
@@ -359,11 +420,24 @@ int main()
 	//list.push_back(44);
 	//list.push_back(59);
 
-	std::vector<int> list = { 3,4,5,6,7,8,9,10,12,13 };
-	Node * root = BinarySearchTree().makeBSTfromArray(list);
+//	std::vector<int> list = { 3,4,5,6,7,8,9,10,12,13 };
+//	std::vector<int> list = { 1, 2, 3, 4, 5 };
+//	Node * root = BinarySearchTree().makeBSTfromArray(list);
 
-	bool isbst = IsBST().isBST(root);
-	cout << isbst << endl;
+	Node * root = new Node(1);
+	Node * two = new Node(2);
+	Node * three = new Node(3);
+	Node * four = new Node(4);
+	Node * five = new Node(5);
+	
+	two->setLeft(four);
+	two->setRight(five);
+
+	root->setLeft(two);
+	root->setRight(three);
+
+//	bool isbst = IsBST().isBST(root);/
+//	cout << isbst << endl;
 
 	TreeTraversals().preOrder(root);
 	cout << endl; 
@@ -371,6 +445,14 @@ int main()
 	cout << endl;
 	TreeTraversals().postOrder(root);
 	cout << endl;
+
+
+	TreeTraversals().preorderItr(root);
+	cout << endl;
+
+	TreeTraversals().inorderItr(root);
+	cout << endl;
+
 
 	TreeTraversalLevelByLevel().levelByLevelOneQueueUsingCount(root);
 	cout << endl;
